@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>converter</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <div class="menu">
+  <img src="./download (5).png" alt="">
+  <h2>Binary Converter</2>
+    </div>
+    <h1 class="header">Binary Converter</h1>
+
+    <form action="" class="form">
+      <div class="input-container">
+        <label for="">Enter Binary</label>
+        <input id="binary" inputmode="numeric" pattern="[0-1]*" />
+      </div>
+
+      <div class="error-container">
+        <p id="error"></p>
+      </div>
+
+      <div class="btn-container">
+        <input type="submit" value="Convert" id="btn" />
+        <button class="clear" id="clear">Clear</button>
+      </div>
+    </form>
+
+    <div class="result">
+      <div class="decContainer">
+        <p>Decimal</p>
+        <p id="dec"></p>
+      </div>
+
+      <div class="octContainer">
+        <p>Octal:</p>
+        <p id="oct"></p>
+      </div>
+
+      <div class="hexaContainer">
+        <p>Hexa:</p>
+        <p id="hexa"></p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h2>Binary Converter</2>
+        </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

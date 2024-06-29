@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu{
+    width: 100%;
+    height: 150px;
+    background-color: #2908e7;
+    display: flex;
+    
+}
+
+.menu h2{
+    margin: 2rem;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 40px;
+
+}
+
+.menu img{
+    width: 100px;
+    height: 100px;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+.footer{
+    width: 100%;
+    margin-top: 10rem;
+    height: 140px;
+    background-color: #2908e7;
+    
+    
+}
+
+.footer img{
+    width: 80px;
+    height: 80px;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+.footer h2{
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+}
+
+
+.header{
+  text-align: center; 
+  margin-bottom: 2rem; 
+  margin-top: 2rem; 
+}
+
+
+.form{
+    background-color: rgb(14, 13, 14);
+    width: 45%;
+    margin: auto;
+    
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+   
+
+}
+
+.input-container label{
+    font-size: large;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    color: white;
+
+}
+
+
+.error-container{
+    display: flex;
+    justify-content: center; 
+    color: red;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+#btn{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    padding: 0.9rem;
+    color: white;
+    width: 25%;
+    background-color: #2908e7;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    cursor: pointer;
+}
+
+#clear{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    padding: 0.9rem;
+    color: white;
+    width: 25%;
+    background-color: #2908e7;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    cursor: pointer;
+}
+
+#binary{
+    width: 50%;
+    margin-top: 0.5rem;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 5px;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.octContainer{
+    margin-right: 5rem;
+}
+
+.decContainer{
+    margin-right: 5rem;
+}
+
+.hexaContainer{
+    margin-right: 5rem;
+}
+
+
+
+
+#dec{
+    text-align: center;
+}
+
+#oct{
+    text-align: center;
+}
+
+#hexa{
+    text-align: center;
+}
